@@ -26,7 +26,7 @@ class Calculadora {
                 if (el.classList.contains('btn-del'))
                     this.del(el);
                 if (el.classList.contains('btn-eq'))
-                    this.eq(el);
+                    this.realizaConta();
             });
         };
 
